@@ -17,11 +17,12 @@ elOnBtn.addEventListener(`click`, function(){
 elOnBtn.addEventListener(`click`, function(){
 
     if(elLamp.src.includes(`yellow_lamp`)){
-        elLamp.src = "./img 4/white_lamp.png"
+        elOnBtn.innerText = `TURN ON`;
+        elLamp.src = "./img 4/white_lamp.png";
     }
     else {
-        elOnBtn.innerText = `TURN OFF`
-        elLamp.src = "./img 4/yellow_lamp.png"
+        elOnBtn.innerText = `TURN OFF`;
+        elLamp.src = "./img 4/yellow_lamp.png";
     }
 })
 
